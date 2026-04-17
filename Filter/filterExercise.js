@@ -11,9 +11,8 @@ const planets = [
 
 
 const newArray = planets.filter(function( plant){
-console.log(((plant.temperature>=253 &&plant.temperature<=323 )&&(plant.distance>=0.75 ||plant.distance<=1.5 )));
 return  ((plant.temperature>=253 &&plant.temperature<=323 )&&(plant.distance>=0.75 &&plant.distance<=1.5 ))
 	
 });
 
-console.log(newArray);
+console.log(newArray); 
